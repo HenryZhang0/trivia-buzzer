@@ -1,0 +1,34 @@
+{
+    "df":[
+        {
+            "id": 1,
+            "name": "Henry Zhang",
+            "time": 1628520404601,
+            "team": 1,
+            "points": 7
+        },
+        {
+            "id": 2,
+            "name": "Guy Rotem",
+            "time": false,
+            "team": 0,
+            "points": 4
+        }
+        ],
+    "room":{
+        "players": [
+        {
+            "id": 1,
+            "name": "Rick",
+            "time": 1628520404601,
+            "team": 1
+        },
+        {
+            "id": 2,
+            "name": "Morty",
+            "time": false,
+            "team": 2
+        }
+        ]
+    }
+}

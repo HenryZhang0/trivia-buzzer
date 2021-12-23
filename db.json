@@ -1,0 +1,30 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Henry Zhang",
+      "time": 1628520404601,
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "name": "Guy Rotem",
+      "time": false,
+      "reminder": true
+    }
+  ],
+  "tasks": [
+    {
+      "id": 2,
+      "text": "Meeting at School",
+      "day": "Feb 6th at 1:30pm",
+      "reminder": true
+    },
+    {
+      "text": "4",
+      "day": "f",
+      "reminder": false,
+      "id": 3
+    }
+  ]
+}
