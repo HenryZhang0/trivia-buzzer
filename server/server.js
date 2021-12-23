@@ -3,7 +3,7 @@ const io = require("socket.io")();
 const { makeid } = require("./utils");
 
 
-const fs = require('fs');
+const fs = require('fs'); 
 
 let state = {};
 
@@ -36,7 +36,7 @@ class State {
    
 }
 
-io.on("connection", (client) => {
+io.on("connection", (client) => { 
   client.on("hi", ()=>{
     console.log('socket connected ',client.id);
   })
@@ -50,7 +50,7 @@ io.on("connection", (client) => {
         return false
       return true
     }) 
-    delete roomCodes[id]
+    delete roomCodes[client.id];
     emitGameState(room, state[room]) 
   })
   client.on("kickPlayer", id => {

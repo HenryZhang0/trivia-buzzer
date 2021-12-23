@@ -1,6 +1,5 @@
 {
-    "df":[
-        {
+    "df": [{
             "id": 1,
             "name": "Henry Zhang",
             "time": 1628520404601,
@@ -9,15 +8,13 @@
         },
         {
             "id": 2,
-            "name": "Guy Rotem",
+            "name": "Guy- Rotem",
             "time": false,
             "team": 0,
             "points": 4
         }
-        ],
-    "room":{
-        "players": [
-        {
+    ],
+    "room": [{
             "id": 1,
             "name": "Rick",
             "time": 1628520404601,
@@ -29,6 +26,5 @@
             "time": false,
             "team": 2
         }
-        ]
-    }
+    ]
 }
